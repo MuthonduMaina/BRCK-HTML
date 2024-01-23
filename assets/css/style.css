@@ -1,0 +1,167 @@
+/**
+* Template Name: BRCK
+* Author: Stephen Gacheru
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: 'Inter', sans-serif;
+  color: #475467;
+}
+
+a {
+  color: #f7931a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffd584;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inter', sans-serif;
+}
+
+.grey-warm-400{
+  color: #A9A29D;
+}
+
+.white{
+  color: #fff;
+}
+
+.btn-primary {  
+  background: #FED432;
+  border:1px solid #FDB022;
+  color: #26272B;  
+  
+}
+
+.btn-primary:hover {  
+  background:  #FDB022;
+  border:1px solid #FED432;
+  color: #26272B;
+}
+
+.large-button{
+  padding: 0.6rem;
+  letter-spacing: -0.5px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.top-nav a{
+   color: #475467;
+   font-size: 16px;
+   font-weight: 500;
+}
+
+.top-contact{
+  color: #475467;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/*--------------------------------------------------------------
+# Body
+--------------------------------------------------------------*/
+
+.hero-home h1{
+    font-size: 55px;
+    letter-spacing: -1px;
+    padding-bottom: 20px;
+}
+
+.subscribe{
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background: #242425;
+}
+
+.subscribe p{
+  color: #EAECF0;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+
+footer{
+  background: #2E2E2E;
+  padding-top: 60px;
+  padding-bottom: 25px;
+}
+
+footer h5{
+  font-size: 0.875rem;
+}
+
+footer p{
+   color: #EAECF0;
+}
+
+.footer-logo{
+  margin-bottom: 30px;
+}
+
+footer ul{
+  padding-left: 0;
+}
+
+footer ul li{
+  list-style: none;
+  padding-bottom: 8px;
+  font-weight: 500;
+}
+
+footer ul li a{
+  color: #EAECF0;
+}
+
+.footer-company{
+  margin-left: 120px;
+}
+
+.footer-legal{
+  margin-left: 90px;
+}
+
+.footer-contact{
+  margin-left: 20px;
+}
+
+.bottom-footer{
+  border-top:#3F3F46 solid 1px;
+  padding-top: 32px;
+  margin-top: 40px;
+}
+
+.bottom-footer p{
+  color: #8C8C8C;
+}
+
+.bottom-footer ul{
+  padding-left: 80px;
+  
+}
+
+.bottom-footer ul li{
+  padding-right: 15px;
+  display: inline-block;
+}
+
+.bottom-footer ul li:last-child{
+  padding-right: 0;
+}
