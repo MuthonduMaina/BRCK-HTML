@@ -73,6 +73,52 @@ h6 {
   font-weight: 500;
 }
 
+.megamenu{ 
+  padding: 1rem;
+ } 
+
+.has-megamenu{
+  position:static!important;
+}
+
+.megamenu{
+  left:0; 
+  right:0; 
+  width:100%; 
+  margin-top:0;  
+}
+
+.megamenu-title img{
+  float: left;
+  margin-right: 16px;
+}
+
+.megamenu-title h5{
+   margin-bottom: 0;
+}
+
+.megamenu-title p{
+  font-size: 14px;
+  color: #475467;
+}
+
+.megamenu-column {
+  padding-left: 65px ;
+}
+
+.megamenu-column li{
+   padding-bottom: 10px;
+}
+
+.megamenu-column li a{
+  color: #101828;
+  font-weight: 500;
+}
+
+.megamenu-column li a:hover{
+  color: #4E5BA6;
+}
+
 /*--------------------------------------------------------------
 # Body
 --------------------------------------------------------------*/
@@ -131,11 +177,11 @@ footer ul li a{
 }
 
 .footer-company{
-  margin-left: 120px;
+  margin-left: 140px;
 }
 
 .footer-legal{
-  margin-left: 90px;
+  margin-left: 100px;
 }
 
 .footer-contact{

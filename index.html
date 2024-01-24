@@ -32,27 +32,133 @@
   <!-- ======= Header ======= -->
   <header class="p-3">
     <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-decoration-none">
-         <img src="assets/img/brck-logo.svg" alt="BRCK logo" class="header-logo">
+      <div class="row">
+    <nav class="navbar navbar-expand-lg">
+      
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/brck-logo.svg" alt="BRCK logo" class="header-logo">
         </a>
 
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 ms-4 justify-content-center mb-md-0 top-nav">
-          <li><a href="#" class="nav-link px-4 ">Products</a></li>
-          <li><a href="#" class="nav-link px-4 ">Solutions</a></li>
-          <li><a href="#" class="nav-link px-4 ">Learn</a></li>
-          <li><a href="#" class="nav-link px-4 ">Network</a></li>
-          <li><a href="#" class="nav-link px-4 ">Pricing</a></li>
-        </ul>
+        <!-- Mobile hamburger button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        
+        <!-- Main Menu -->
+        <div class="collapse navbar-collapse top-nave" id="main_nav">
+          <ul class="navbar-nav">           
+            <li class="nav-item dropdown has-megamenu">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Products  </a>
+              <div class="dropdown-menu megamenu" role="menu">
+                <div class="row g-3">
+                  <div class="col-lg-4">
+                    <div class="col-megamenu">
+                      <div class="megamenu-title">
+                        <img src="assets/img/icons/nav-icon.svg" alt="">
+                        <div class="megamenu-title-text">
+                          <h5 class="title">UCaaS</h5>
+                          <p>Intro text goes here</p>
+                        </div>
+                      </div>
+                     
+                      <ul class="list-unstyled megamenu-column">
+                        <li><a href="#">Direct Routing Microsoft Teams</a></li>
+                        <li><a href="#">Operator Connect Microsoft Teams</a></li>
+                        <li><a href="#">Webex Calling</a></li>
+                        <li><a href="#">Zoom Phone</a></li>
+                        <li><a href="#">Cytracom Hosted Voice</a></li>
+                        <li><a href="#">Custom Menu</a></li>
+                      </ul>
+                    </div>  <!-- col-megamenu.// -->
+                  </div><!-- end col-4 -->
 
-        <div class="text-end">
-          <a href="#" class="top-contact">Contact Us</a>
-          <button type="button" class="btn btn-warning ms-3">Support</button>
-        </div>
-      </div>
-    </div>
+                  <div class="col-lg-4 ">                    
+                    <div class="col-megamenu">
+                      <div class="megamenu-title">
+                        <img src="assets/img/icons/nav-icon.svg" alt="">
+                        <div class="megamenu-title-text">
+                          <h5 class="title">CCaaS</h5>
+                          <p>Intro text goes here</p>
+                        </div>
+                      </div>
+                      <ul class="list-unstyled megamenu-column">
+                        <li><a href="#">Genesys Cloud CX</a></li>
+                        <li><a href="#">Five9</a></li>
+                      </ul>
+
+                      <div class="megamenu-title">
+                        <img src="assets/img/icons/nav-icon.svg" alt="">
+                        <div class="megamenu-title-text">
+                          <h5 class="title">Global SIP Trunking</h5>
+                          <p>Intro text goes here</p>
+                        </div>
+                      </div>
+
+                      <div class="megamenu-title">
+                        <img src="assets/img/icons/nav-icon.svg" alt="">
+                        <div class="megamenu-title-text">
+                          <h5 class="title">Global Messaging</h5>
+                          <p>Intro text goes here</p>
+                        </div>
+                      </div>
+                    </div>  <!-- col-megamenu.// -->
+                  </div><!-- end col-4 -->
+
+                  <div class="col-lg-4">
+                    <div class="col-megamenu ">
+                      <div class="megamenu-title">
+                        <img src="assets/img/icons/nav-icon.svg" alt="">
+                        <div class="megamenu-title-text">
+                          <h5 class="title">Security</h5>
+                          <p>Intro text goes here</p>
+                        </div>
+                      </div>
+                      <ul class="list-unstyled megamenu-column">
+                        <li><a href="#">SDN & ZTNA</a></li>
+                        <li><a href="#">Call Verification</a></li>
+                        <li><a href="#">Pin Drop</a></li>                        
+                      </ul>
+                    </div>  <!-- col-megamenu.// -->
+                  </div>    
+                  
+                </div><!-- end row --> 
+              </div> <!-- dropdown-mega-menu.// -->
+            </li>
+
+
+            <!-- Solutions -->
+            <li class="nav-item dropdown has-megamenu">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Solutions </a>
+              <div class="dropdown-menu megamenu" role="menu">
+                <div class="row g-3">              
+                </div><!-- end row --> 
+              </div> <!-- dropdown-mega-menu.// -->
+            </li>
+
+            <!-- Learn -->
+
+            <li class="nav-item dropdown has-megamenu">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Learn </a>
+              <div class="dropdown-menu megamenu" role="menu">
+                <div class="row g-3">              
+                </div><!-- end row --> 
+              </div> <!-- dropdown-mega-menu.// -->
+            </li>
+           <!--Other links -->
+            <li class="nav-item"><a class="nav-link" href="#"> Network </a></li>
+            <li class="nav-item"><a class="nav-link" href="#"> Pricing </a></li>
+          </ul>
+
+          <!--right links -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#"> Contact Us</a></li>
+            <li class="nav-item"><a class="btn btn-warning ms-3" href="#"> Support</a></li>
+           
+          </ul>
+        </div> <!-- navbar-collapse.// -->
+      </div> <!-- container-fluid.// -->
+      </nav>
   </header><!-- End Header -->
 
   
@@ -64,6 +170,12 @@
           <p class="lead mb-4">Features and cloud-based solutions for companies that think about the future.</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
             <button type="button" class="btn btn-primary btn-lg large-button px-4 ">Contact Sales</button>           
+          </div>
+        </div>
+
+        <di class="row ">
+          <div class="col-12">
+            <img src="assets/img/home-img.png" />
           </div>
         </div>
      
