@@ -21,6 +21,8 @@ a:hover {
   text-decoration: none;
 }
 
+/* Typography */
+
 h1,
 h2,
 h3,
@@ -28,6 +30,19 @@ h4,
 h5,
 h6 {
   font-family: 'Inter', sans-serif;
+  letter-spacing: -1px;
+}
+
+h2{
+  font-size: 2.25rem ;
+  margin-bottom: 1.25rem;
+}
+
+
+/* Colours */
+
+.dark-text-100{
+  color: #101828;
 }
 
 .grey-warm-400{
@@ -38,10 +53,16 @@ h6 {
   color: #fff;
 }
 
+.grey-iron-100{
+  background-color: #F4F4F5;
+}
+
+/* Buttons */
+
 .btn-primary {  
   background: #FED432;
   border:1px solid #FDB022;
-  color: #26272B;  
+  color: #26272B !important;  
   
 }
 
@@ -53,15 +74,48 @@ h6 {
 
 .large-button{
   padding: 0.6rem;
-  letter-spacing: -0.5px;
+  font-size: 16px;
+  font-weight: 500;
 }
+
+.xlarge-button{
+  padding: 1rem;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+/* Breadcrumbs */
+
+.breadcrumb a{
+  color: #999;
+  font-weight: 500;
+}
+
+.breadcrumb .active{
+  color: #101828;
+  font-weight: 500;
+}
+
+
 
 
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-.top-nav a{
+.above-fold{
+  background: rgb(99,102,241);
+  background: linear-gradient(90deg, rgba(99,102,241,0.08) 0%, rgba(252,211,77,0.08) 45%, rgba(59,130,246,0.08) 100%);
+}
+
+header{
+  border-bottom: #F2F4F7 solid 1px;
+}
+.top-nav .nav-item {
+    padding-left: 20px;
+}
+.top-nav .nav-item a{
    color: #475467;
    font-size: 16px;
    font-weight: 500;
@@ -122,6 +176,13 @@ h6 {
 /*--------------------------------------------------------------
 # Body
 --------------------------------------------------------------*/
+.home{
+  background-color: #F9FAFB;
+}
+
+.hero-home{
+  padding-bottom: 90px;
+}
 
 .hero-home h1{
     font-size: 55px;
@@ -135,8 +196,36 @@ h6 {
   background: #242425;
 }
 
+.inner-hero h1{
+  font-size: 3rem;
+  margin-bottom:1.25rem ;
+}
+
+.inner-hero .lead{
+  font-size: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.inner-hero .right-img{
+  padding-left: 2rem;
+}
+
 .subscribe p{
   color: #EAECF0;
+}
+
+.company-logo li{
+  display: inline-block;
+  padding-right: 40px;
+}
+.section-sm{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.section-lg{
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 /*--------------------------------------------------------------
