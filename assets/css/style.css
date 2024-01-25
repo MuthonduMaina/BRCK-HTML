@@ -12,7 +12,7 @@ body {
 }
 
 a {
-  color: #f7931a;
+  color: #4E5BA6;
   text-decoration: none;
 }
 
@@ -29,7 +29,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif; 
+}
+h1,h2{
   letter-spacing: -1px;
 }
 
@@ -55,6 +57,11 @@ h2{
 
 .grey-iron-100{
   background-color: #F4F4F5;
+}
+
+.grey-50{
+  background-color: #F9FAFB;
+
 }
 
 /* Buttons */
@@ -97,7 +104,9 @@ h2{
   font-weight: 500;
 }
 
-
+.border-10{
+  border-radius: 10px;
+}
 
 
 
@@ -195,6 +204,9 @@ header{
   padding-bottom: 30px;
   background: #242425;
 }
+.subscribe p{
+  color: #EAECF0;
+}
 
 .inner-hero h1{
   font-size: 3rem;
@@ -210,10 +222,6 @@ header{
   padding-left: 2rem;
 }
 
-.subscribe p{
-  color: #EAECF0;
-}
-
 .company-logo li{
   display: inline-block;
   padding-right: 40px;
@@ -223,9 +231,22 @@ header{
   padding-bottom: 20px;
 }
 
+.section-md{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .section-lg{
   padding-top: 90px;
   padding-bottom: 90px;
+}
+
+.feature-col{
+  padding: 24px;
+}
+
+.feature-col h5{
+  margin-top:1.8rem ;
 }
 
 /*--------------------------------------------------------------
