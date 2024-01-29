@@ -45,6 +45,18 @@ h2{
   line-height: 1.5;
 }
 
+@media screen and (max-width: 768px) {
+  h2{
+    font-size: 1.7rem ;
+    margin-bottom: 1.25rem;
+  }
+
+  .font-18{
+    font-size: 1.05rem;
+    line-height: 1.5;
+  }
+}
+
 .border-16{
   border-radius: 16px;
 }
@@ -242,6 +254,17 @@ header{
   display: inline-block;
   padding-right: 40px;
 }
+
+@media screen and (max-width: 768px) {
+  .inner-hero h1{
+    font-size: 2rem;
+    margin-bottom:1.25rem ;
+  }
+  .inner-hero .lead{
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+  }
+}
 .section-sm{
   padding-top: 30px;
   padding-bottom: 20px;
@@ -267,6 +290,21 @@ header{
 
 .content-bottom-lg{
   padding-bottom: 90px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .section-lg{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .content-pad-mobile{
+    margin-left: 10px;
+    margin-right:10px;
+  }
+
 }
 
 
@@ -301,6 +339,9 @@ header{
   background: rgb(234,236,245);
   background: linear-gradient(90deg, rgba(234,236,245,1) 0%, rgba(255,246,187,0.5) 99%);
 }
+
+
+
 
 
 
