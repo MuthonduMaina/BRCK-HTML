@@ -40,6 +40,20 @@ h2{
   margin-bottom: 1.25rem;
 }
 
+.font-18{
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.border-16{
+  border-radius: 16px;
+}
+
+/* Spacing*/
+
+.mb-32{
+  margin-bottom: 32px;
+}
 
 /* Colours */
 
@@ -61,7 +75,9 @@ h2{
 
 .grey-50{
   background-color: #F9FAFB;
-
+}
+.white-bg{
+  background-color: #fff !important;
 }
 
 /* Buttons */
@@ -245,14 +261,24 @@ header{
   padding-top: 60px;
 }
 
+.content-bottom-md{
+  padding-bottom: 60px;
+}
+
+.content-bottom-lg{
+  padding-bottom: 90px;
+}
+
 
 .card-padding-24{
   padding: 24px;
 }
 
+
 .feature-col h5{
   margin-top:1.8rem ;
 }
+
 
 .feature-list{
   margin-right: 100px;
@@ -269,6 +295,11 @@ header{
 
 .feature-list-text {
   padding-top: 5px;
+}
+
+.cta-section-bg{
+  background: rgb(234,236,245);
+  background: linear-gradient(90deg, rgba(234,236,245,1) 0%, rgba(255,246,187,0.5) 99%);
 }
 
 
