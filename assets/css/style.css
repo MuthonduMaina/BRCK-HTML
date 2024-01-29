@@ -241,13 +241,37 @@ header{
   padding-bottom: 90px;
 }
 
-.feature-col{
+.content-top-md{
+  padding-top: 60px;
+}
+
+
+.card-padding-24{
   padding: 24px;
 }
 
 .feature-col h5{
   margin-top:1.8rem ;
 }
+
+.feature-list{
+  margin-right: 100px;
+}
+
+.feature-list li{
+   clear: both;
+   display: block;
+}
+
+.feature-list img{
+  margin-right: 16px;
+}
+
+.feature-list-text {
+  padding-top: 5px;
+}
+
+
 
 /*--------------------------------------------------------------
 # Footer
