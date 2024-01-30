@@ -92,6 +92,19 @@ h2{
   background-color: #fff !important;
 }
 
+.grey-button{
+  background-color: #EAECF0 !important;
+  border: 1px solid #D0D5DD !important;
+  padding:12px 20px;
+  color:#344054 !important;
+}
+
+.grey-button:hover{
+  background-color: #F3EBFE !important;
+  border: 1px solid transparent;
+  color:#4F3999 !important;
+}
+
 /* Buttons */
 
 .btn-primary {  
@@ -292,6 +305,12 @@ header{
   padding-bottom: 90px;
 }
 
+.inner-content-top-md{
+  padding-top: 40px;
+}
+
+
+
 
 @media screen and (max-width: 768px) {
 
@@ -310,6 +329,10 @@ header{
 
 .card-padding-24{
   padding: 24px;
+}
+
+.feature-col-bottom-lg{
+  padding-bottom: 50px;
 }
 
 
@@ -340,6 +363,71 @@ header{
   background: linear-gradient(90deg, rgba(234,236,245,1) 0%, rgba(255,246,187,0.5) 99%);
 }
 
+
+/*-------------Accordian-----------------*/
+
+.icon-left-accordion .accordion-item {
+  border: none;
+  padding: 12px 0;
+  color: #475467; 
+}
+
+.grey-blue-400{
+  color: #717BBC;
+}
+
+
+.icon-left-accordion .accordion-header button{
+  font-size: 1.125rem;
+  font-weight: 500 ;
+  padding-top: 20px;
+  padding-bottom: 10px;
+   border-top-left-radius: 16px;
+   border-top-right-radius: 16px;
+   line-height: 28px;
+}
+
+.accordion-button:focus {
+	border-color: none;
+	box-shadow: none;
+}
+
+.icon-left-accordion .accordion-button:after {
+  order: -1;  /*swap order */
+  margin-left: 15px; 
+  margin-right:24px; /* just extra space between text and icon*/
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='%23717BBC' class='bi bi-plus-circle' viewBox='0 0 16 16'%3E%3Cpath d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16'/%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4'/%3E%3C/svg%3E");
+  height: 24px;
+  width: 24px;
+  background-size: 24px 24px;
+}
+
+  .icon-left-accordion .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='%23717BBC' class='bi bi-dash-circle' viewBox='0 0 16 16'%3E%3Cpath d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16'/%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8'/%3E%3C/svg%3E");
+    height: 24px;
+    width: 24px;
+    background-size: 24px 24px;
+  }
+
+  .icon-left-accordion .accordion-button:not(.collapsed) {
+    color: #101828;
+    background-color: #F9FAFB;
+    box-shadow: none;
+  }
+
+  .icon-left-accordion .accordion-body{
+     background-color: #F9FAFB;
+     padding-left: 80px;
+     padding-right: 32px;
+     padding-top: 0;
+     padding-bottom: 32px;
+     border-bottom-left-radius: 16px;
+     border-bottom-right-radius: 16px;
+  }
+  .accordion-item:first-of-type {
+    border-top-left-radius: var(--bs-accordion-border-radius);
+    border-top-right-radius: var(--bs-accordion-border-radius);
+  }
 
 
 
