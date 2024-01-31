@@ -429,6 +429,30 @@ header{
     border-top-right-radius: var(--bs-accordion-border-radius);
   }
 
+  .custom-table{
+    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19); */
+    border:#EAECF0 solid 1px;
+    border-radius: 12px;
+
+  }
+
+  .custom-table th,
+  .custom-table  td{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: #475467;
+    padding-left: 20px;
+    padding:24px 30px;
+  }
+
+  .custom-table thead th{
+    background-color: #F9FAFB;
+  }
+
+  /* .custom-table tr th{
+     width: 10px;
+  } */
+
 
 
 
