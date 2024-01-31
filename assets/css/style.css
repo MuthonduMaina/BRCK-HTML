@@ -260,7 +260,7 @@ header{
 }
 
 .inner-hero .right-img{
-  padding-left: 2rem;
+  float: right;
 }
 
 .company-logo li{
