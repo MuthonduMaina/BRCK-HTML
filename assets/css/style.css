@@ -21,6 +21,11 @@ a:hover {
   text-decoration: none;
 }
 
+a.text-underline{
+  text-decoration: underline;
+  color:#475467 !important;
+}
+
 /* Typography */
 
 h1,
@@ -79,6 +84,9 @@ h2{
 
 .white{
   color: #fff;
+}
+.grey-blue-500{
+  color: #4E5BA6;
 }
 
 .grey-iron-100{
@@ -348,6 +356,7 @@ header{
 .feature-list li{
    clear: both;
    display: block;
+   padding-bottom: 40px;
 }
 
 .feature-list img{
@@ -362,6 +371,43 @@ header{
   background: rgb(234,236,245);
   background: linear-gradient(90deg, rgba(234,236,245,1) 0%, rgba(255,246,187,0.5) 99%);
 }
+
+.stats-col{
+  border-left: #4E5BA6 solid 2px;
+  padding: 24px 24px 0 24px;
+}
+
+.stats-col span{
+   font-size: 48px;
+}
+
+.partner-card{
+
+}
+
+.partner-card blockquote{
+  border-bottom: #EAECF0 solid 1px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.partner-card p{
+   margin-bottom: 0;
+}
+
+.resources-card h6{
+  font-size:0.875rem ;
+}
+.resources-card p a{
+   font-size: 1.125rem;
+   color: #101828;
+}
+
+
+  
 
 
 /*-------------Accordian-----------------*/
