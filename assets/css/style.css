@@ -313,6 +313,10 @@ header{
   padding-bottom: 90px;
 }
 
+.content-top-lg{
+  padding-top: 90px;
+}
+
 .content-top-md{
   padding-top: 60px;
 }
@@ -327,6 +331,11 @@ header{
 
 .inner-content-top-md{
   padding-top: 40px;
+}
+
+.section-header-lg{
+  font-size: 48px;
+  line-height: 60px;
 }
 
 
@@ -346,9 +355,18 @@ header{
 
 }
 
+.checked-list {  
+  padding-top: 30px;
+}
+
 .checked-list li{
    font-size: 1.1rem;
-   padding-bottom: 20px;
+   padding-bottom: 25px;
+   background-image:url('../img/icons/check-rounded-icon.svg');
+   background-repeat: no-repeat;
+    line-height: 28px;
+    vertical-align: middle;
+    padding-left: 40px;
 }
 .card-padding-24{
   padding: 24px;
