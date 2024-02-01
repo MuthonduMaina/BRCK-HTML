@@ -85,6 +85,11 @@ h2{
 .white{
   color: #fff;
 }
+
+.grey-blue-400{
+  color: #717BBC;
+}
+
 .grey-blue-500{
   color: #4E5BA6;
 }
@@ -348,20 +353,59 @@ header{
   margin-top:1.8rem ;
 }
 
-
-.feature-list{
-  margin-right: 100px;
-}
-
-.feature-list li{
-   clear: both;
-   display: block;
-   padding-bottom: 40px;
-}
-
 .feature-list img{
   margin-right: 16px;
 }
+
+
+.feature-list .accordion-item {
+  border: none;
+  padding: 12px 0 0;
+  color: #475467; 
+  background-color: #F9FAFB;
+  margin-bottom: 35px;
+}
+
+.feature-list .accordion-button{
+  background-color: #F9FAFB;
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.feature-list .accordion-button:after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23717BBC' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4'/%3E%3C/svg%3E");  
+  height: 22px;
+  width: 22px;
+  background-size: 22px 22px;
+  margin-left: 3px;
+}
+
+.feature-list .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23717BBC' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8'/%3E%3C/svg%3E");  
+  height: 22px;
+  width: 22px;
+  background-size: 22px 22px;
+
+}
+
+.feature-list .accordion-button:not(.collapsed) {
+  color: #101828;
+  background-color: #F9FAFB;
+  box-shadow: none;
+}
+
+.feature-list .accordion-body{
+   background-color: #F9FAFB;
+   border: none;
+   padding: 0 65px 0;
+   padding-left: 65px;
+   padding-bottom: 0;
+   margin-bottom:0;
+}
+
 
 .feature-list-text {
   padding-top: 5px;
@@ -407,20 +451,13 @@ header{
 }
 
 
-  
-
-
-/*-------------Accordian-----------------*/
-
 .icon-left-accordion .accordion-item {
   border: none;
   padding: 12px 0;
   color: #475467; 
 }
 
-.grey-blue-400{
-  color: #717BBC;
-}
+
 
 
 .icon-left-accordion .accordion-header button{
@@ -469,10 +506,6 @@ header{
      padding-bottom: 32px;
      border-bottom-left-radius: 16px;
      border-bottom-right-radius: 16px;
-  }
-  .accordion-item:first-of-type {
-    border-top-left-radius: var(--bs-accordion-border-radius);
-    border-top-right-radius: var(--bs-accordion-border-radius);
   }
 
   .custom-table{
