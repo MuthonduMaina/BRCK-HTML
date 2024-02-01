@@ -52,7 +52,7 @@ h2{
 
 @media screen and (max-width: 768px) {
   h2{
-    font-size: 1.7rem ;
+    font-size: 1.8rem ;
     margin-bottom: 1.25rem;
   }
 
@@ -243,6 +243,11 @@ header{
   color: #4E5BA6;
 }
 
+.navbar-toggler{
+  border: none;
+  box-shadow: none;
+}
+
 /*--------------------------------------------------------------
 # Body
 --------------------------------------------------------------*/
@@ -290,12 +295,10 @@ header{
 
 @media screen and (max-width: 768px) {
   .inner-hero h1{
-    font-size: 2rem;
-    margin-bottom:1.25rem ;
+    font-size: 2.1rem;
   }
   .inner-hero .lead{
-    font-size: 1.1rem;
-    margin-bottom: 2.5rem;
+    font-size: 1.2rem;
   }
 }
 .section-sm{
@@ -344,13 +347,21 @@ header{
 @media screen and (max-width: 768px) {
 
   .section-lg{
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 30px;
   }
 
   .content-pad-mobile{
     margin-left: 10px;
     margin-right:10px;
+  }
+
+  .inner-content-top-md{
+    padding-top: 20px;
+  }
+
+  .content-bottom-lg{
+    padding-bottom: 50px;
   }
 
 }
@@ -429,14 +440,23 @@ header{
    background-color: #F9FAFB;
    border: none;
    padding: 0 65px 0;
-   padding-left: 65px;
    padding-bottom: 0;
    margin-bottom:0;
 }
 
-
 .feature-list-text {
   padding-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .feature-list .accordion-item {
+    margin-bottom: 25px;
+  }
+
+  .feature-list .accordion-body{
+    padding-right: 15px;
+  }
+
 }
 
 .cta-section-bg{
@@ -665,4 +685,30 @@ footer ul li a{
 
 .bottom-footer ul li:last-child{
   padding-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  footer{
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+
+  .footer-company{
+    margin-left: 0px;
+  }
+
+  .footer-legal{
+    margin-left: 10px;
+  }
+  
+  .footer-contact{
+    margin-left: 0px;
+  }
+
+  .bottom-footer{
+    padding-top: 32px;
+    margin-top: 12px;
+  }
+
+
 }
