@@ -479,6 +479,9 @@ header{
 }
 
 @media screen and (max-width: 768px) {
+  .feature-col-bottom-lg{
+    padding-bottom: 20px;
+  }
   .feature-list .accordion-item {
     margin-bottom: 25px;
   }
@@ -613,6 +616,13 @@ header{
 
   .custom-table thead th{
     background-color: #F9FAFB;
+  }
+
+  @media screen and (max-width: 768px) {
+    .custom-table th,
+    .custom-table  td{
+      padding:15px 10px;
+    }
   }
 
   .form-column{
