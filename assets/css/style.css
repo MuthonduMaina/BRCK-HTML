@@ -171,6 +171,8 @@ h2{
 
 
 
+
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -246,6 +248,26 @@ header{
 .navbar-toggler{
   border: none;
   box-shadow: none;
+}
+@media screen and (max-width: 768px) {
+  .top-nav{
+    margin-top: 10px;
+  }
+  .top-nav .nav-item {
+    padding-left: 0px;
+    padding-bottom: 5px;
+  }
+
+  .megamenu-title img{
+    width: 40px;
+    height: auto;
+  }
+  .megamenu-title h5{
+    font-size: 1.18rem;
+  }
+  .megamenu-title p{
+    margin-bottom: 0.7rem;
+  }
 }
 
 /*--------------------------------------------------------------
