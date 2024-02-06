@@ -462,6 +462,14 @@ header{
     line-height: 48px;
   }
 
+  .section-md{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+}
+.w-80{
+  width: 80%;
 }
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
@@ -476,6 +484,10 @@ header{
   }
   .content-top-lg{
     padding-top: 60px;
+  }
+
+  .inner-content-top-md{
+    padding-top: 40px;
   }
 
 }
@@ -715,7 +727,7 @@ header{
     border-bottom: #EAECF0 solid 1px;
   }
 
-  .small-pricing-table td.w-30{
+  .small-pricing-table td.w-21{
     width: 21%;
   }
 
@@ -723,6 +735,27 @@ header{
     .custom-table th,
     .custom-table  td{
       padding:15px 10px;
+    }
+    .small-pricing-table{
+      width: 100%;
+    }
+    .small-pricing-table.right{
+      margin-left: 0%;
+    }
+    .small-pricing-table td.w-21{
+      width: auto;
+    }
+    .small-pricing-table td{
+      padding:15px;
+    }
+  }
+
+  @media only screen and (max-width: 991px) and (min-width: 768px)  {
+    .small-pricing-table{
+      width: 100%;
+    }
+    .small-pricing-table.right{
+      margin-left: 0%;
     }
   }
 
