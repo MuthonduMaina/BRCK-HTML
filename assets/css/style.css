@@ -47,7 +47,7 @@ h2{
 
 .font-18{
   font-size: 1.125rem;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 @media screen and (max-width: 768px) {
@@ -116,6 +116,13 @@ h2{
   .mb-sm-32{
     margin-bottom: 32px;
   }
+}
+
+.w-80{
+  width: 80%;
+}
+.w-sm-auto{
+  width: auto !important;
 }
 
 /* Colours */
@@ -442,6 +449,10 @@ header{
   padding-top: 40px;
 }
 
+.inner-content-top-lg{
+  padding-top: 90px;
+}
+
 .section-header-lg{
   font-size: 48px;
   line-height: 60px;
@@ -480,11 +491,12 @@ header{
     padding-top: 40px;
     padding-bottom: 40px;
   }
+  .inner-content-top-lg{
+    padding-top: 50px;
+  }
 
 }
-.w-80{
-  width: 80%;
-}
+
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
   .section-lg{
@@ -502,6 +514,10 @@ header{
 
   .inner-content-top-md{
     padding-top: 40px;
+  }
+
+  .inner-content-top-lg{
+    padding-top: 60px;
   }
 
 }
@@ -641,6 +657,15 @@ header{
    color: #101828;
 }
 
+.leader-section p{
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+.about-social li{
+  display: inline-block;
+  padding-right: 6px;
+}
+
 
 .icon-left-accordion .accordion-item {
   border: none;
@@ -697,6 +722,10 @@ header{
   }
 
   @media screen and (max-width: 768px) {
+    .leader-section p{
+      font-size: 1rem;
+      line-height: 1.6;
+    }
     .icon-left-accordion .accordion-header button{
       padding-left: 0;
     }
@@ -746,6 +775,10 @@ header{
   }
 
   @media screen and (max-width: 768px) {
+    .leader-section p{
+      font-size: 1rem;
+      line-height: 1.6;
+    }
     .custom-table th,
     .custom-table  td{
       padding:15px 10px;
@@ -770,6 +803,10 @@ header{
     }
     .small-pricing-table.right{
       margin-left: 0%;
+    }
+    .leader-section p{
+      font-size: 1rem;
+      line-height: 1.6;
     }
   }
 
