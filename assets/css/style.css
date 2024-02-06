@@ -70,7 +70,9 @@ h2{
 
 }
 
-
+.border-10{
+  border-radius: 10px;
+}
 
 .border-16{
   border-radius: 16px;
@@ -78,6 +80,7 @@ h2{
 .border-20{
   border-radius: 20px;
 }
+
 
 /* Spacing*/
 
@@ -104,10 +107,11 @@ h2{
   }
 }
 
-
-
-
-
+@media screen and (max-width: 768px) {
+  .mb-sm-32{
+    margin-bottom: 32px;
+  }
+}
 
 /* Colours */
 
@@ -198,14 +202,6 @@ h2{
   color: #101828;
   font-weight: 500;
 }
-
-.border-10{
-  border-radius: 10px;
-}
-
-
-
-
 
 /*--------------------------------------------------------------
 # Header
@@ -378,7 +374,7 @@ header{
     font-size: 2.1rem;
   }
   .inner-hero .lead{
-    font-size: 1.2rem;
+    font-size: 1.15rem;
   }
 }
 
@@ -467,6 +463,14 @@ header{
   .section-lg{
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+
+  .section-header-lg{
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .content-top-lg{
+    padding-top: 60px;
   }
 
 }
