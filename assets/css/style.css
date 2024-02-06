@@ -365,6 +365,11 @@ header{
   margin-bottom: 2.5rem;
 }
 
+.lead-big{
+  font-size: 1.9rem;
+  line-height: 40px;
+}
+
 .inner-hero .right-img{
   float: right;
 }
@@ -381,6 +386,10 @@ header{
   .inner-hero .lead{
     font-size: 1.15rem;
   }
+  .lead-big{
+    font-size: 1.3rem;
+    line-height: 30px;
+  }
 }
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
@@ -390,6 +399,11 @@ header{
 
   .inner-hero .lead{
     font-size: 1.1rem;
+  }
+
+  .lead-big{
+    font-size: 1.7rem;
+    line-height: 35px;
   }
 
 }
