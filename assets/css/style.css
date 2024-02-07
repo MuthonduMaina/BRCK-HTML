@@ -472,6 +472,9 @@ header{
   font-size: 48px;
   line-height: 60px;
 }
+.pull-content-top-lg{
+  padding-top: 90px;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -509,6 +512,9 @@ header{
   .inner-content-top-lg{
     padding-top: 50px;
   }
+  .pull-content-top-lg{
+    padding-top: 0;
+  }
 }
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
@@ -518,7 +524,7 @@ header{
   }
 
   .section-header-lg{
-    font-size: 40px;
+    font-size: 38px;
     line-height: 55px;
   }
   .content-top-lg{
@@ -531,6 +537,10 @@ header{
 
   .inner-content-top-lg{
     padding-top: 60px;
+  }
+
+  .pull-content-top-lg{
+    padding-top: 0;
   }
 
 }
