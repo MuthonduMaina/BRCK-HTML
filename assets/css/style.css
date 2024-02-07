@@ -674,6 +674,9 @@ header{
  .stats-col p{
   font-size: 0.85rem;
  }
+  .col-sm-title{
+     font-size: 1rem ; 
+  }
 }
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
