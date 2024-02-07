@@ -619,6 +619,12 @@ header{
 
 }
 
+@media only screen and (max-width: 991px) and (min-width: 768px)  {
+  .feature-col-bottom-lg{
+    padding-bottom: 20px;
+  }
+}
+
 .cta-section-bg{
   background: rgb(234,236,245);
   background: linear-gradient(90deg, rgba(234,236,245,1) 0%, rgba(255,246,187,0.5) 99%);
@@ -649,7 +655,7 @@ header{
 .resources-card h6{
   font-size:0.875rem ;
 }
-.resources-card p a{
+.resources-card a p {
    font-size: 1.125rem;
    color: #101828;
 }
@@ -668,7 +674,7 @@ header{
     padding: 10px 10px 0 10px;
   }
   .stats-col span{
-    font-size: 1.5rem;
+    font-size: 2rem;
  }
 
  .stats-col p{
@@ -677,19 +683,37 @@ header{
   .col-sm-title{
      font-size: 1rem ; 
   }
+
+  .resources-card h6{
+   padding-top: 15px;
+  }
 }
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
-  .stats-col{
+  .network-stats .stats-col{
     padding: 10px 5px 0 10px;
   }
-  .stats-col span{
+  .network-stats .stats-col span{
     font-size: 2rem;
- }
+  }
 
- .stats-col p{
-  font-size: 1rem;
- }
+  .network-stats .stats-col p{
+    font-size: 1rem;
+  }
+
+  .stats-col{
+    padding: 20px 2px 0 20px;
+  }
+  
+  .stats-col span{
+     font-size: 2.3rem;
+  }
+
+  .stats-col p{
+     font-size: 1.05rem;
+     line-height: 1.55;
+     margin-bottom: 0;
+  }
 }
 
 
