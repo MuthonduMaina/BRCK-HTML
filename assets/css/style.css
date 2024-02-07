@@ -178,6 +178,18 @@ h2{
   color:#4F3999 !important;
 }
 
+.white-button{
+  background-color: #fff ;
+  border: 1px solid #D0D5DD ;
+  padding:12px 20px;
+  color:#344054 ;
+}
+
+.white-button:hover{
+  background-color: #F9FAFB;
+  border: 1px solid #D0D5DD ;
+}
+
 /* Buttons */
 
 .btn-primary {  
