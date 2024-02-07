@@ -118,6 +118,9 @@ h2{
   }
 }
 
+.w-60{
+  width: 60%;
+}
 .w-80{
   width: 80%;
 }
@@ -494,9 +497,7 @@ header{
   .inner-content-top-lg{
     padding-top: 50px;
   }
-
 }
-
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
   .section-lg{
@@ -629,11 +630,7 @@ header{
 }
 
 .stats-col span{
-   font-size: 48px;
-}
-
-.partner-card{
-
+   font-size: 3rem;
 }
 
 .partner-card blockquote{
@@ -664,6 +661,32 @@ header{
 .about-social li{
   display: inline-block;
   padding-right: 6px;
+}
+
+@media screen and (max-width: 768px) {
+  .stats-col{
+    padding: 10px 10px 0 10px;
+  }
+  .stats-col span{
+    font-size: 1.5rem;
+ }
+
+ .stats-col p{
+  font-size: 0.85rem;
+ }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px)  {
+  .stats-col{
+    padding: 10px 5px 0 10px;
+  }
+  .stats-col span{
+    font-size: 2rem;
+ }
+
+ .stats-col p{
+  font-size: 1rem;
+ }
 }
 
 
@@ -738,18 +761,13 @@ header{
   }
 
   .custom-table{
-    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19); */
-    border:#EAECF0 solid 1px;
+     box-shadow: 1px 1px 3px 1px rgba(16, 24, 40, 0.2);
     border-radius: 12px;
 
   }
 
   .custom-table th,
   .custom-table  td{
-    padding-top: 24px;
-    padding-bottom: 24px;
-    color: #475467;
-    padding-left: 20px;
     padding:24px 30px;
   }
 
@@ -798,6 +816,10 @@ header{
   }
 
   @media only screen and (max-width: 991px) and (min-width: 768px)  {
+    .custom-table th,
+    .custom-table  td{
+      padding:18px 20px;
+    }
     .small-pricing-table{
       width: 100%;
     }
