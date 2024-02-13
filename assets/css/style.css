@@ -258,6 +258,7 @@ header{
 
 .megamenu{ 
   padding: 1rem;
+  border-radius: 10px;
  } 
 
 .has-megamenu{
