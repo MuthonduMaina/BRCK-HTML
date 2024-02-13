@@ -250,16 +250,15 @@ header{
    font-weight: 500;
 }
 
+.top-nav .nav-item .megamenu a{
+  font-size: 14px;
+}
+
 .top-contact{
   color: #475467;
   font-size: 16px;
   font-weight: 500;
 }
-
-.megamenu{ 
-  padding: 1rem;
-  border-radius: 10px;
- } 
 
 .has-megamenu{
   position:static!important;
@@ -269,7 +268,13 @@ header{
   left:0; 
   right:0; 
   width:100%; 
-  margin-top:0;  
+  margin-top:0; 
+  padding: 1rem;
+  border-radius: 10px; 
+}
+
+.megamenu a{
+  font-size: 14px;
 }
 
 .megamenu-title img{
@@ -282,7 +287,7 @@ header{
 }
 
 .megamenu-title p{
-  font-size: 14px;
+  font-size: 12px;
   color: #475467;
 }
 
