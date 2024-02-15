@@ -206,7 +206,7 @@ h2{
 }
 
 .large-button{
-  padding: 0.6rem;
+  padding: 0.6rem 1rem;
   font-size: 16px;
   font-weight: 500;
 }
@@ -365,22 +365,18 @@ header{
 }
 
 .hero-home{
+  margin-top: 30px;
+  padding-top: 85px;
   padding-bottom: 90px;
+  background: url(../img/home-img.png) no-repeat ;
+  background-size: cover;
+  border-radius: 20px;
 }
 
 .hero-home h1{
-    font-size: 55px;
+    font-size: 60px;
     letter-spacing: -1px;
     padding-bottom: 20px;
-}
-
-.subscribe{
-  padding-top: 40px;
-  padding-bottom: 30px;
-  background: #242425;
-}
-.subscribe p{
-  color: #EAECF0;
 }
 
 .inner-hero h1{
@@ -400,6 +396,14 @@ header{
 
 .inner-hero .right-img{
   float: right;
+}
+.home-explore-list li{
+   padding-right: 4rem;
+   padding-bottom: 2.9rem;
+}
+.home-explore-list h5{
+  line-height: 1.5;
+  padding-bottom: 0.8rem;
 }
 
 .company-logo li{
@@ -662,10 +666,24 @@ header{
   border-left: #4E5BA6 solid 2px;
   padding: 24px 24px 0 24px;
 }
+.home-stats-col{
+  border-left: #4E5BA6 solid 2px;
+  padding: 2px 24px 0 24px;
+}
 
-.stats-col span{
+.stats-col span,
+.home-stats-col span{
    font-size: 3rem;
 }
+
+.home-stats-col span.big{
+   font-size: 8rem;
+   line-height: 1.09;
+}
+
+
+
+
 
 .partner-card blockquote{
   border-bottom: #EAECF0 solid 1px;
