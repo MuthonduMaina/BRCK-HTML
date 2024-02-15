@@ -230,6 +230,13 @@ h2{
   font-weight: 500;
 }
 
+@media screen and (max-width: 768px) {
+  .xlarge-button{
+    padding:0.7rem 1rem;
+    font-size: 18px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -412,6 +419,21 @@ header{
 }
 
 @media screen and (max-width: 768px) {
+  .hero-home{
+    padding-top: 45px;
+    padding-bottom: 90px;
+    padding: 45px 10px;
+    margin:15px 5px;
+  }
+  .hero-home h1{
+    font-size: 35px;
+    letter-spacing: -1px;
+    padding-bottom: 20px;
+}
+ .hero-home p.lead{
+    font-size: 16px;
+    line-height: 1.55;
+ }
   .inner-hero h1{
     font-size: 2.1rem;
   }
@@ -422,9 +444,23 @@ header{
     font-size: 1.3rem;
     line-height: 30px;
   }
+  .home-explore-list li{
+    padding-right: 0.8rem;
+    padding-bottom: 2.9rem;
+ }
+  
 }
 
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
+  .hero-home{
+    margin-top: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .hero-home h1{
+    font-size: 45px;
+    padding-bottom: 20px;
+  }
   .inner-hero h1{
     font-size:2.4rem ;
   }
@@ -436,6 +472,9 @@ header{
   .lead-big{
     font-size: 1.7rem;
     line-height: 35px;
+  }
+  .home-explore-list li{
+    padding-right: 0;
   }
 
 }
@@ -506,6 +545,10 @@ header{
     padding-top: 50px;
   }
 
+  .content-top-md{
+    padding-top: 20px;
+  }
+
   .content-bottom-lg{
     padding-bottom: 50px;
   }
@@ -539,6 +582,10 @@ header{
   }
   .content-top-lg{
     padding-top: 60px;
+  }
+
+  .content-top-md{
+    padding-top: 40px;
   }
 
   .inner-content-top-md{
@@ -681,10 +728,6 @@ header{
    line-height: 1.09;
 }
 
-
-
-
-
 .partner-card blockquote{
   border-bottom: #EAECF0 solid 1px;
   padding-bottom: 10px;
@@ -719,13 +762,17 @@ header{
   .stats-col{
     padding: 10px 10px 0 10px;
   }
-  .stats-col span{
+  .stats-col span,
+  .home-stats-col span{
     font-size: 2rem;
  }
 
  .stats-col p{
   font-size: 0.85rem;
  }
+ .home-stats-col span.big{
+  font-size: 5rem;
+}
   .col-sm-title{
      font-size: 1rem ; 
   }
@@ -760,6 +807,15 @@ header{
      line-height: 1.55;
      margin-bottom: 0;
   }
+  .home-stats-col span.big{
+    font-size: 6rem;
+    line-height: 1.09;
+  }
+
+  .home-stats-col.md-text-center{
+    text-align: center;
+  }
+
 }
 
 
