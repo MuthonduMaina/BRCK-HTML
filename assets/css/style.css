@@ -873,6 +873,10 @@ header{
      border-bottom-right-radius: 16px;
   }
 
+  .icon-left-accordion .accordion-body li{
+    padding-bottom: 10px;
+  }
+
   @media screen and (max-width: 768px) {
     .leader-section p{
       font-size: 1rem;
