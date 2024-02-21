@@ -221,7 +221,15 @@
                     <div class="row inner-content-top-md">
                         <div class="col">
                             <div class="table-responsive px-2 pt-1">
-                                <table class="table custom-table">
+
+                                <input type="file" id="csv-file" accept=".csv">
+                                <table id="data-table" class="table custom-table display">
+                                    <thead>
+                                        <tr></tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                                <!-- <table class="table custom-table">
                                     <thead>
                                         <tr>
                                             <th></th>
@@ -346,7 +354,7 @@
                                             <td><img src="assets/img/icons/plus-square-icon.svg" alt=""></td>
                                         </tr>
                                     </tbody>
-                                </table>
+                                </table> -->
                             </div>
                         </div>
                     </div>
@@ -448,5 +456,28 @@
 
         <!-- Template Main JS File -->
         <script src="assets/js/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+       <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.11/jquery.csv.min.js"></script>
+
+       <script>
+        $(document).ready(function() {
+  $('#csv-file').change(function(e) {
+    const file = e.target.files[0];
+    const reader = new FileReader();
+    reader.onload = function(e) {
+      const data = e.target.result;
+      const table = $('#data-table').DataTable({
+        data: $.csv.toArrays(data),
+        columns: $.csv.toArrays(data)[0].map(function(col) {
+          return { title: col };
+        })
+      });
+      table.draw();
+    };
+    reader.readAsText(file);
+  });
+});
+       </script>
     </body>
 </html>
