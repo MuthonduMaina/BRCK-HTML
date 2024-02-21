@@ -501,6 +501,10 @@ header{
   padding-top: 60px;
 }
 
+.content-top-sm{
+  padding-top: 30px;
+}
+
 .content-bottom-md{
   padding-bottom: 60px;
 }
