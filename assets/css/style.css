@@ -762,6 +762,23 @@ header{
   padding-right: 6px;
 }
 
+.text-content h3,
+.text-content h4,
+.text-content h5,
+.text-content p{
+  padding-bottom: 15px;
+}
+
+.text-content p,
+.text-content li{
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.text-content li{
+  padding-bottom: 5px;
+}
+
 @media screen and (max-width: 768px) {
   .stats-col{
     padding: 10px 10px 0 10px;
@@ -783,6 +800,10 @@ header{
 
   .resources-card h6{
    padding-top: 15px;
+  }
+  .text-content p{
+    font-size: 1rem;
+    line-height: 1.6;
   }
 }
 
@@ -818,6 +839,10 @@ header{
 
   .home-stats-col.md-text-center{
     text-align: center;
+  }
+  .text-section p{
+    font-size: 1rem;
+    line-height: 1.6;
   }
 
 }
@@ -1040,7 +1065,9 @@ header{
     }
   }
 
+  
 
+ 
 
 /*--------------------------------------------------------------
 # Footer
