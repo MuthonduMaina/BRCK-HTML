@@ -1083,8 +1083,12 @@ footer ul li a{
   margin-left: 140px;
 }
 
+.footer-legal{
+  margin-left: 100px;
+}
+
 .footer-contact{
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .bottom-footer{
@@ -1121,6 +1125,9 @@ footer ul li a{
   .footer-company{
     margin-left: 0px;
   }
+  .footer-legal{
+    margin-left: 10px;
+  }
   .footer-contact{
     margin-left: 0px;
   }
@@ -1138,9 +1145,9 @@ footer ul li a{
     margin-left: 40px;
   }
   
-  /* .footer-legal{
+  .footer-legal{
     margin-left: 20px;
-  } */
+  }
   
   .footer-contact{
     margin-left: 20px;
