@@ -715,6 +715,19 @@ header{
   background: linear-gradient(90deg, rgba(234,236,245,1) 0%, rgba(255,246,187,0.5) 99%);
 }
 
+.cta-section-bg ul{
+  list-style-position: inside;
+}
+
+.cta-section-bg li{
+  padding-bottom: 4px;
+}
+
+.cta-section-bg p,
+.cta-section-bg li{
+   font-size: 1.25rem;
+}
+
 .stats-col{
   border-left: #4E5BA6 solid 2px;
   padding: 24px 24px 0 24px;
@@ -806,6 +819,14 @@ header{
   .text-content p{
     font-size: 1rem;
     line-height: 1.6;
+  }
+  .cta-section-bg ul{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .cta-section-bg p,
+  .cta-section-bg li{
+   font-size: 1rem;
   }
 }
 
