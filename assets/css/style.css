@@ -398,6 +398,10 @@ header{
   margin-bottom: 2.5rem;
 }
 
+.lead{
+  font-size: 1.125rem;
+}
+
 .lead-big{
   font-size: 1.9rem;
   line-height: 40px;
@@ -610,6 +614,7 @@ header{
 
 .checked-list {  
   padding-top: 30px;
+  padding-left: 20px;
 }
 
 .checked-list li{
@@ -636,6 +641,10 @@ header{
 
 .feature-list img{
   margin-right: 16px;
+}
+
+.feature-col a.feature-content li{
+  color: #101828;
 }
 
 
