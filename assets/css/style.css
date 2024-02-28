@@ -394,7 +394,7 @@ header{
 }
 
 .inner-hero .lead{
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   margin-bottom: 2.5rem;
 }
 
@@ -1015,6 +1015,11 @@ header{
       font-size: 1rem;
       line-height: 1.6;
     }
+  }
+  
+  .contact-form-bg{
+    background: #000 url(../img/contact-img.jpg) center no-repeat;
+    background-size: cover;
   }
 
   .form-column{
