@@ -1030,6 +1030,10 @@ header{
     background: #000 url(../img/contact-img.jpg) center no-repeat;
     background-size: cover;
   }
+  .teams-form-bg{
+    background: #000 url(../img/teams-form-img.jpg) center no-repeat;
+    background-size: cover;
+  }
 
   .form-column{
     padding-top: 80px;
