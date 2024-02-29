@@ -1039,6 +1039,11 @@ header{
     background-size: cover;
   }
 
+  .zoom-form-bg{
+    background: #000 url(../img/zoom-form-img.jpg) center no-repeat;
+    background-size: cover;
+  }
+
   .form-column{
     padding-top: 80px;
     padding-left: 100px;
