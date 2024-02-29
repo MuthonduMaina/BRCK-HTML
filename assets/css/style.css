@@ -1034,6 +1034,10 @@ header{
     background: #000 url(../img/teams-form-img.jpg) center no-repeat;
     background-size: cover;
   }
+  .operator-form-bg{
+    background: #000 url(../img/form-operator-img.jpg) center no-repeat;
+    background-size: cover;
+  }
 
   .form-column{
     padding-top: 80px;
