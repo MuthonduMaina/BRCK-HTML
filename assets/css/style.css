@@ -785,6 +785,10 @@ header{
   display: inline-block;
   padding-right: 6px;
 }
+.about-score{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
 
 .text-content h3,
 .text-content h4,
