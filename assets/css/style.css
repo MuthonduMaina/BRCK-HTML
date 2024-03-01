@@ -1181,6 +1181,12 @@ footer ul li a{
   color: #EAECF0;
 }
 
+footer ul li a:hover{
+  color: #ffd584;
+}
+
+
+
 .footer-company{
   margin-left: 140px;
 }
