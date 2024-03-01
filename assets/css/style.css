@@ -428,6 +428,14 @@ header{
   line-height: 1.5;
   padding-bottom: 0.8rem;
 }
+.icon-list li{
+  padding-right: 4rem;
+  padding-bottom: 2.9rem;
+}
+.icon-list h5{
+ line-height: 1.5;
+ padding-bottom: 0.2rem;
+}
 
 .company-logo li{
   display: inline-block;
