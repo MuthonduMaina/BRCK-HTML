@@ -284,13 +284,19 @@ header{
   font-size: 14px;
 }
 
+.megamenu-title{
+  clear: both;
+  margin-bottom: 25px;
+}
+
 .megamenu-title img{
   float: left;
   margin-right: 16px;
 }
 
 .megamenu-title h5{
-   margin-bottom: 0;
+   /* margin-bottom: 0; */
+   padding-top: 14px;
    color: #101828;
 }
 
@@ -299,6 +305,10 @@ header{
   color: #667085;
   font-weight: 400;
 }
+
+/* .megamenu-title-text{
+  padding-bottom: 20px;
+} */
 
 .megamenu-column {
   padding-left: 65px ;
