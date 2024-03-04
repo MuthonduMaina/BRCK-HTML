@@ -26,6 +26,12 @@ a.text-underline{
   color:#475467 !important;
 }
 
+a.border-bottom-gray-blue{
+  border-bottom: 1px solid #3E4784 ;
+  color:#3E4784 !important;
+  padding-bottom: 1px;
+}
+
 /* Typography */
 
 h1,
