@@ -437,6 +437,9 @@ header{
   line-height: 1.5;
   padding-bottom: 0.8rem;
 }
+.home-explore-list .company-logo li{
+  padding-bottom: 0.5rem;
+}
 .icon-list li{
   padding-right: 4rem;
   padding-bottom: 2.9rem;
