@@ -827,6 +827,7 @@ header{
   padding-bottom: 15px;
 }
 
+.leader-section p,
 .text-content p,
 .text-content li{
   font-size: 1.125rem;
@@ -859,9 +860,10 @@ header{
   .resources-card h6{
    padding-top: 15px;
   }
+
+  .leader-section p,
   .text-content p{
     font-size: 1rem;
-    line-height: 1.6;
   }
   .cta-section-bg ul{
     padding-left: 1rem;
@@ -906,9 +908,9 @@ header{
   .home-stats-col.md-text-center{
     text-align: center;
   }
-  .text-section p{
+  .leader-section p,
+  .text-content p{
     font-size: 1rem;
-    line-height: 1.6;
   }
 
 }
