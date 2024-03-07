@@ -545,6 +545,10 @@ header{
   padding-bottom: 60px;
 }
 
+.content-bottom-sm{
+  padding-bottom: 30px;
+}
+
 .content-bottom-lg{
   padding-bottom: 90px;
 }
